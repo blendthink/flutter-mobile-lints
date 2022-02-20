@@ -4,7 +4,9 @@
 
 # blendthink_lints
 
-Lint rules for Flutter mobile apps by blendthink.
+This package contains a recommended by blendthink set of lints for Flutter mobile apps to encourage good coding practices.
+
+This package is built on top of Flutter's `flutter.yaml` set of lints from [package:flutter_lints](https://pub.dev/packages/flutter_lints).
 
 ## Usage
 
