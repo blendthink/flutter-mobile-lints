@@ -1,0 +1,14 @@
+name: example
+description: A example of blendthink_lints.
+version: 1.0.0
+publish_to: 'none'
+environment:
+  sdk: '>=2.16.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  blendthink_lints:
+    path: ..
