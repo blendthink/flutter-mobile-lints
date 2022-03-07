@@ -1,6 +1,6 @@
 name: blendthink_lints
 description: Recommended by blendthink set of lints for Flutter mobile apps to encourage good coding practices.
-version: 0.0.3
+version: 0.0.4
 homepage: https://github.com/blendthink/flutter-mobile-lints
 
 environment:
