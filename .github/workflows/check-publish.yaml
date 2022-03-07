@@ -1,0 +1,20 @@
+name: check-publish
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+      - uses: dart-lang/setup-dart@v1
+      - name: copy credentials
+        run: .github/scripts/copy-credentials.sh
+        env:
+          PUB_CREDENTIALS: ${{ secrets.PUB_CREDENTIALS }}
+      - name: check publish
+        run: dart pub publish --dry-run
