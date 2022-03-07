@@ -1,3 +1,8 @@
+## 0.0.4
+
+Remove from Lint Rules
+- diagnostic_describe_all_properties
+
 ## 0.0.3
 
 - Fixed "Using json_serializable v5 causes invalid_annotation_target warnings"
