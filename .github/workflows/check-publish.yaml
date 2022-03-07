@@ -4,13 +4,6 @@ on:
   push:
     branches:
       - 'release/**'
-  pull_request:
-    types:
-      - opened
-      - synchronize
-      - reopened
-    branches:
-      - 'main'
 
 jobs:
   check-publish:
