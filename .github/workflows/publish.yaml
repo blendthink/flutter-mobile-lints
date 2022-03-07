@@ -5,13 +5,13 @@ on:
     types:
       - closed
     branches:
-      - 'release/**'
+      - 'main'
 
 jobs:
   publish:
     runs-on: ubuntu-latest
 
-    if: github.event.pull_request.merged == true
+    if: github.event.pull_request.merged == true && startswith(github.head_ref, 'release/')
     steps:
       - uses: actions/checkout@v3
       - uses: dart-lang/setup-dart@v1
