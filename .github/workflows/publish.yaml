@@ -20,4 +20,4 @@ jobs:
         env:
           PUB_CREDENTIALS: ${{ secrets.PUB_CREDENTIALS }}
       - name: publish
-        run: dart pub publish
+        run: dart pub publish --force
