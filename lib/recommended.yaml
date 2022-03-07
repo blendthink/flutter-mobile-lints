@@ -26,7 +26,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - cancel_subscriptions
     - close_sinks
     - comment_references
-    - diagnostic_describe_all_properties
+    #- diagnostic_describe_all_properties # use as you like
     - invariant_booleans # experimental
     - literal_only_boolean_expressions
     - no_adjacent_strings_in_list
