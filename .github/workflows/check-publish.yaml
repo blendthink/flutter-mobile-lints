@@ -1,9 +1,16 @@
 name: check-publish
 
 on:
-  pull_request:
+  push:
     branches:
-      - main
+      - 'release/**'
+  pull_request:
+    types:
+      - opened
+      - synchronize
+      - reopened
+    branches:
+      - 'release/**'
 
 jobs:
   build:
