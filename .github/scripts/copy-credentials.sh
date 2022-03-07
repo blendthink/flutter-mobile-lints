@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-mkdir -p ~/Library/Application\ Support/dart
-cat <<EOF > ~/Library/Application\ Support/dart/pub-credentials.json
+mkdir -p ~/.pub-cache
+cat <<EOF > ~/.pub-cache/credentials.json
 $PUB_CREDENTIALS
 EOF
