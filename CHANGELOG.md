@@ -2,6 +2,7 @@
 
 Remove from Lint Rules
 - diagnostic_describe_all_properties
+- one_member_abstracts
 
 ## 0.0.3
 
