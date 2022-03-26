@@ -84,7 +84,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - noop_primitive_operations
     - null_check_on_nullable_type_parameter # experimental
     - omit_local_variable_types
-    - one_member_abstracts
+    #- one_member_abstracts # use as you like
     - only_throw_errors
     #- package_api_docs # use as you like
     - parameter_assignments
