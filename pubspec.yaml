@@ -4,7 +4,7 @@ version: 0.0.4
 homepage: https://github.com/blendthink/flutter-mobile-lints
 
 environment:
-  sdk: ">=2.16.0 <3.0.0"
+  sdk: ">=2.17.0 <3.0.0"
 
 dependencies:
   flutter_lints: ^1.0.4
