@@ -1,3 +1,7 @@
+## 1.0.1
+
+- Removed `implicit-dynamic: false` from `strong-mode`. 
+
 ## 1.0.0
 
 - Bumped the minimum required Dart SDK version to `2.17`.
