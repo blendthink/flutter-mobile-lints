@@ -1,3 +1,9 @@
+## 2.0.0
+
+- Bumped the minimum required Dart SDK version to `2.17.5`.
+- Removed lints.
+  - `always_put_required_named_parameters_first`
+
 ## 1.0.2
 
 - Described the reason for `invalid_annotation_target: ignore`

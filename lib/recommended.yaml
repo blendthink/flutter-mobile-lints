@@ -37,7 +37,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     # Style Rules
     - always_declare_return_types
     - always_put_control_body_on_new_line
-    - always_put_required_named_parameters_first
+    #- always_put_required_named_parameters_first # use as you like
     #- always_specify_types # exclude to use avoid_types_on_closure_parameters, omit_local_variable_types
     - avoid_annotating_with_dynamic
     - avoid_bool_literals_in_conditional_expressions
