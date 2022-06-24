@@ -4,8 +4,6 @@ analyzer:
     strict-casts: true
     strict-inference: true
     strict-raw-types: true
-  strong-mode:
-    implicit-dynamic: false
   errors: # https://dart.dev/tools/diagnostic-messages
     missing_required_param: warning
     missing_return: warning
