@@ -1,3 +1,7 @@
+## 1.0.2
+
+- Described the reason for `invalid_annotation_target: ignore`
+
 ## 1.0.1
 
 - Removed `implicit-dynamic: false` from `strong-mode`. 
