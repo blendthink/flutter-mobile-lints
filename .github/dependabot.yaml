@@ -1,0 +1,9 @@
+# https://github.blog/changelog/2022-04-05-pub-beta-support-for-dependabot-version-updates/
+# https://github.com/dependabot/dependabot-core/issues/2166
+version: 2
+enable-beta-ecosystems: true
+updates:
+  - package-ecosystem: "pub"
+    directory: "/"
+    schedule:
+      interval: "weekly"
