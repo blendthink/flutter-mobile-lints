@@ -27,3 +27,4 @@ linter:
     - unnecessary_overrides
     - unrelated_type_equality_checks
     - valid_regexps
+    - void_checks
