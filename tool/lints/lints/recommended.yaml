@@ -57,4 +57,3 @@ linter:
     - unnecessary_string_interpolations
     - unnecessary_this
     - use_function_type_syntax_for_parameters
-    - use_rethrow_when_possible
