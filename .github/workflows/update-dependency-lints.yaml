@@ -21,8 +21,8 @@ jobs:
     steps:
       # https://github.com/actions/checkout
       - uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
+
+      - run: git fetch origin ${{ github.base_ref }} --depth=1
 
       # https://github.com/dart-lang/setup-dart
       - uses: dart-lang/setup-dart@v1
@@ -41,7 +41,7 @@ jobs:
           dart pub get
           dart tool/grind.dart update-dependency-lints \
             --pub-cache=${{ env.PUB_CACHE }} \
-            --base=${{ github.base_ref }} \
+            --base=origin/${{ github.base_ref }} \
             --head=${{ github.head_ref }}
 
       # https://github.com/peter-evans/create-pull-request
