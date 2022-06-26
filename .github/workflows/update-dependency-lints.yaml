@@ -42,7 +42,7 @@ jobs:
           dart tool/grind.dart update-dependency-lints \
             --pub-cache=${{ env.PUB_CACHE }} \
             --base=origin/${{ github.base_ref }} \
-            --head=${{ github.head_ref }}
+            --head=origin/${{ github.head_ref }}
 
       # https://github.com/peter-evans/create-pull-request
       - name: create pull request
