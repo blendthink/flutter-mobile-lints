@@ -25,7 +25,10 @@ updateDependencyLints() {
   );
 
   final hasLintsUpdate = diff.contains(RegExp(r'\+\s+flutter_lints:'));
-  if (!hasLintsUpdate) return;
+  if (!hasLintsUpdate) {
+    print('`flutter_lints` has not been updated.');
+    return;
+  }
 
   final packagesDir = Directory('$pubCachePath/hosted/pub.dartlang.org');
   packagesDir.listSync().forEach((e) {
