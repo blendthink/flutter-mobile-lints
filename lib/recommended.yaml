@@ -7,7 +7,6 @@ analyzer:
   errors: # https://dart.dev/tools/diagnostic-messages
     missing_required_param: warning
     missing_return: warning
-    invalid_annotation_target: ignore # Reason: https://github.com/rrousselGit/freezed/issues/488
 
 linter: # https://dart-lang.github.io/linter/lints/
   rules:
