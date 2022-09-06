@@ -101,6 +101,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - unnecessary_await_in_return
     #- unnecessary_final # exclude to use prefer_final_locals
     - unnecessary_lambdas
+    - unnecessary_null_aware_operator_on_extension_on_nullable
     - unnecessary_null_checks # experimental
     - unnecessary_parenthesis
     - unnecessary_raw_strings
