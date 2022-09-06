@@ -36,6 +36,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     #- always_put_required_named_parameters_first # use as you like
     #- always_specify_types # exclude to use avoid_types_on_closure_parameters, omit_local_variable_types
     - avoid_annotating_with_dynamic
+    #- avoid_as # deprecated
     - avoid_bool_literals_in_conditional_expressions
     - avoid_catches_without_on_clauses
     - avoid_catching_errors
@@ -79,6 +80,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - parameter_assignments
     - prefer_asserts_in_initializer_lists
     #- prefer_asserts_with_message # use as you like
+    #- prefer_bool_in_asserts # deprecated
     - prefer_constructors_over_static_methods
     #- prefer_double_quotes # exclude to use prefer_single_quotes
     #- prefer_expression_function_bodies # use as you like
@@ -96,6 +98,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - sized_box_shrink_expand
     - sort_constructors_first
     - sort_unnamed_constructors_first
+    #- super_goes_last # deprecated
     - tighten_type_of_initializing_formals
     - type_annotate_public_apis
     - unawaited_futures
