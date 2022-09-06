@@ -104,6 +104,7 @@ linter: # https://dart-lang.github.io/linter/lints/
     - unnecessary_null_checks # experimental
     - unnecessary_parenthesis
     - unnecessary_raw_strings
+    - unnecessary_to_list_in_spreads
     - use_colored_box
     - use_decorated_box
     - use_enums # experimental
