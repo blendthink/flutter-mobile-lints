@@ -8,10 +8,6 @@ analyzer:
     missing_required_param: warning
     missing_return: warning
     invalid_annotation_target: ignore # Reason: https://github.com/rrousselGit/freezed/issues/488
-  exclude:
-    - "**/*.g.dart"
-    - "**/*.freezed.dart"
-    - "**/*.mocks.dart"
 
 linter: # https://dart-lang.github.io/linter/lints/
   rules:
