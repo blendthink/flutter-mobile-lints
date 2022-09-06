@@ -1,3 +1,28 @@
+## 3.0.0
+
+- Bumped the minimum required Dart SDK version to `2.18.0`.
+- Removed `exclude:` specification
+  - Use `ignore_for_file` with build.yaml instead.
+- Removed `invalid_annotation_target: ignore`
+  - If you are using freezed, add it to analysis_options.yaml.
+- Added Lints.
+  - `unnecessary_to_list_in_spreads`
+  - `unnecessary_null_aware_operator_on_extension_on_nullable`
+- Removed Lints.
+  - `invariant_booleans`
+
+### Reference
+
+- https://github.com/dart-lang/sdk/blob/main/CHANGELOG.md#2180
+- https://pub.dev/packages/source_gen#configuring-combining_builder-ignore_for_file
+- https://github.com/rrousselGit/freezed/issues/488
+- https://github.com/dart-lang/linter/releases/tag/1.23.0
+- https://github.com/dart-lang/linter/releases/tag/1.24.0
+- https://github.com/dart-lang/linter/releases/tag/1.25.0
+- https://dart-lang.github.io/linter/lints/unnecessary_to_list_in_spreads.html
+- https://dart-lang.github.io/linter/lints/unnecessary_null_aware_operator_on_extension_on_nullable.html
+- https://dart-lang.github.io/linter/lints/invariant_booleans.html
+
 ## 2.0.0
 
 - Bumped the minimum required Dart SDK version to `2.17.5`.
