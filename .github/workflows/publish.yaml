@@ -11,7 +11,7 @@ jobs:
   publish:
     runs-on: ubuntu-latest
 
-    if: github.event.pull_request.merged == true && startswith(github.head_ref, 'release/')
+    if: github.event.pull_request.merged == true && startsWith(github.head_ref, 'release/')
     steps:
       - uses: actions/checkout@v3
       - uses: dart-lang/setup-dart@v1
